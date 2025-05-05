@@ -1,0 +1,75 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+.env.*
+.flaskenv
+config.js
+config.json
+*.pem
+*.key
+secrets.yaml
+secrets.yml
+credentials.json
+*_credentials.*
+*_keys.*
+*_secrets.*
+*_token.*
+.credentials/
+.secrets/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Keep all lecture files
+!data/lectures/
+!data/lectures/*.txt
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Audio files - but keep the directory structure
+data/audio/responses/*.mp3
+!data/audio/responses/.gitkeep
+
+# Vector store - keep directory structure
+data/vector_store/*
+!data/vector_store/.gitkeep
+
+# VS Code
+.vscode/
+
+# Windows
+Desktop.ini 
